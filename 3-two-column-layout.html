@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>HTML Email Template Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--[if mso]>
+      <noscript>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+      </noscript>
+    <![endif]-->
+    <style type="text/css">
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 0;
+      }
+      p {
+        font-size: 16px;
+      }
+      img {
+        border: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #e8fbfa;
+        font-size: 16px;
+      }
+      /* ZIMBRA BLUE LINKS */
+      span.Object {
+        color: inherit !important;
+      }
+      span.Object-hover {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+
+      /* MIX BLEND MODE FOR DARKMODE IN GMAIL */
+      u + .body .gmail-blend-screen {
+        background: #000;
+        mix-blend-mode: screen;
+      }
+      u + .body .gmail-blend-difference {
+        background: #000;
+        mix-blend-mode: difference;
+      }
+
+      /* SPACING FOR OUTLOOK */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      /* APPLE, IOS BLUE LINK  */
+
+      a[x-apple-data-detectors="true"] {
+        color: inherit !important;
+        text-decoration: inherit !important;
+      }
+
+      @media screen and (max-width: 599.98px) {
+        .two-column-layout {
+          text-align: center !important;
+        }
+        .two-column-layout .column.column-one-half {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .two-column-layout .column.column-one-half .column-content img {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .two-column-layout .column.column-one-half .column-content .story {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+        .two-column-layout .column.column-one-half .column-content .button {
+          text-align: center !important;
+        }
+      }
+      @media screen and (max-width: 499.98px) {
+        .two-column-layout .column.column-one-half .column-padding {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+          padding-top: 10px !important ;
+        }
+        .two-column-layout .column.column-one-half .column-padding {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+          padding-top: 10px !important ;
+        }
+      }
+      @media screen and (max-width: 399.98px) {
+      }
+
+      /* DARK MODE */
+
+      :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        body,
+        table,
+        .darkmode-bg {
+          background: #2d2d2d !important;
+          color: #ffffff !important;
+        }
+        [data-ogsc] body,
+        table,
+        .darkmode-bg {
+          background: #2d2d2d !important;
+          color: #ffffff !important;
+        }
+        .darkmode-transparent {
+          background-color: transparent !important;
+        }
+        [data-ogsc] .darkmode-transparent {
+          background-color: transparent !important;
+        }
+      }
+
+      /* GOOGLE FONTS */
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+    </style>
+
+    <!--[if mso]>
+      <style type="text/css">
+        body {
+          background-color: #dde0e1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: "Lato", Arial, Helvetica, sans-serif !important;
+        }
+        table {
+          border-spacing: 0 !important;
+          border-collapse: collapse !important;
+        }
+      </style>
+    <![endif]-->
+  </head>
+  <body class="body" xml:lang="en" style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1">
+    <div
+      style="
+        width: 100%;
+        table-layout: fixed;
+        background-color: #dde0e1;
+        color: #3d3d3d;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin: 40px auto 40px;
+      "
+    >
+      <div
+        style="
+          max-width: 600px;
+          background-color: #fafdfe;
+          color: #3d3d3d;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          margin: 0 auto;
+        "
+      >
+        <!-- Preheader (remove comment) -->
+        <div
+          style="
+            font-size: 0px;
+            color: #fafdfe;
+            mso-line-height-rule: exactly;
+            line-height: 0px;
+            display: none;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          This is our preheader text which can be 35-190 characters but 85-100 is recommended.
+          <!-- Add Preheader Text Here (85-100 characters in length) -->
+          &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;
+        </div>
+        <!-- End Preheader (remove comment) -->
+
+        <!--[if mso]>
+            <table width="600" align="center" style="border-spacing: 0; border-collapse:collapse; color: #3d3d3d;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+        <table
+          align="center"
+          style="
+            border-spacing: 0;
+            border-collapse: collapse;
+            color: #3d3d3d;
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            background-color: #fafdfe;
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            max-width: 600px;
+          "
+          role="presentation"
+        >
+          <tr>
+            <!-- Y axis padding -->
+            <td style="padding: 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <!-- Layout / Grid -->
+                  <!-- font-size:0 in combination with display:inline-block will keep both columns in the same row -->
+                  <td style="padding: 0; text-align: left; font-size: 0" class="two-column-layout">
+                    <!-- GHOST TABLE -->
+
+                    <!--[if mso]>
+                    <table width='100%' style='border-spacing:0;' role='presentation'>
+                    <tr>
+                    <td width='300px' style='padding:0;'>
+                    <![endif]-->
+                    <table
+                      style="border-spacing: 0; display: inline-block; max-width: 300px; width: 100%"
+                      class="column column-one-half"
+                      role="presentation"
+                    >
+                      <tr>
+                        <!-- PADDING AROUND COL -->
+                        <td style="padding: 20px 20px" class="column-padding">
+                          <table width="100%" style="border-spacing: 0" class="column-content" role="presentation">
+                            <!-- ROW 1 -->
+                            <tr>
+                              <!-- Y axis padding -->
+                              <td style="padding-bottom: 10px">
+                                <!--[if mso]>
+                                  <v:roundrect stroke="false" style="width: 195pt; height: 147pt" arcsize="2%">
+                                    <v:fill
+                                      sizes="195pt,147pt"
+                                      type="frame"
+                                      src="https://picsum.photos/id/237/400/300"
+                                      href="https://example.com/12"
+                                    >
+                                      <w:anchorlock />
+                                    </v:fill>
+                                  </v:roundrect>
+                                <![endif]-->
+                                <a href="https://example.com/12" target="_blank" style="mso-hide: all">
+                                  <img
+                                    src="https://picsum.photos/id/237/400/300"
+                                    width="100%"
+                                    alt="placeholder"
+                                    title="placeholder"
+                                    style="border: 0; max-width: 260px; display: block; border-radius: 2px"
+                                /></a>
+                              </td>
+                            </tr>
+                            <!-- ROW 2 -->
+                            <tr>
+                              <!-- Y axis padding -->
+                              <td style="padding-bottom: 10px">
+                                <h4
+                                  style="font-size: 16px; margin: 0; padding: 0; line-height: 2; letter-spacing: -1px"
+                                >
+                                  Headline
+                                </h4>
+                              </td>
+                            </tr>
+                            <!-- ROW 3 -->
+                            <tr>
+                              <!-- Y axis padding -->
+                              <td style="padding-bottom: 20px">
+                                <p style="font-size: 16px; margin: 0; padding: 0; line-height: 1.6" class="story">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, neque provident!
+                                  Excepturi placeat ad consectetur, eos repellat accusamus dolores ex?
+                                </p>
+                              </td>
+                            </tr>
+                            <!-- ROW 4 -->
+                            <tr>
+                              <td style="padding-bottom: 10px">
+                                <table width="100%" style="border-spacing: 0" role="presentation">
+                                  <tr>
+                                    <!-- BUTTON -->
+                                    <td class="button" style="text-align: left">
+                                      <!--[if mso]>
+                                        <v:roundrect
+                                          xmlns_v="urn:schemas-microsoft-com:vml"
+                                          xmlns_w="urn:schemas-microsoft-com:office:word"
+                                          href="https://example.com/1"
+                                          style="height: 25pt; width: 76pt; v-text-anchor: middle"
+                                          arcsize="1%"
+                                          strokecolor="#000000"
+                                          fillcolor="#000000"
+                                        >
+                                          <w:anchorlock />
+                                          <center
+                                            style="
+                                              color: #ffffff;
+                                              font-family: Arial, Helvetica, sans-serif;
+                                              font-size: 16px;
+                                              font-weight: 700;
+                                              line-height: 1;
+                                              letter-spacing: 0.5px;
+                                            "
+                                          >
+                                            BUTTON
+                                          </center>
+                                        </v:roundrect>
+                                      <![endif]-->
+                                      <a
+                                        href="https://example.com/1"
+                                        target="_blank"
+                                        style="
+                                          display: inline-block;
+                                          padding: 8px 24px;
+                                          font-size: 16px;
+                                          line-height: 1;
+                                          font-weight: 700;
+                                          letter-spacing: 0.5px;
+                                          background-color: #000000;
+                                          background: linear-gradient(#000000, #000000);
+                                          color: #ffffff;
+                                          border: 1px solid #000000;
+                                          text-decoration: none;
+                                          border-radius: 2px;
+                                          mso-hide: all;
+                                        "
+                                        >Button</a
+                                      >
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--[if mso]>
+                    </td>
+                    <td width='300px' style='padding:0;'>
+                    <![end if]-->
+                    <table
+                      style="border-spacing: 0; display: inline-block; max-width: 300px; width: 100%"
+                      class="column column-one-half"
+                      role="presentation"
+                    >
+                      <tr>
+                        <!-- PADDING AROUND COL -->
+                        <td style="padding: 20px 20px" class="column-padding">
+                          <table width="100%" style="border-spacing: 0" class="column-content" role="presentation">
+                            <!-- ROW 1 -->
+                            <tr>
+                              <!-- Y axis padding -->
+                              <td style="padding-bottom: 10px">
+                                <!--[if mso]>
+                                  <v:roundrect stroke="false" style="width: 195pt; height: 147pt" arcsize="2%">
+                                    <v:fill
+                                      sizes="195pt,147pt"
+                                      type="frame"
+                                      src="https://picsum.photos/id/237/400/300"
+                                      href="https://example.com/2"
+                                    >
+                                      <w:anchorlock />
+                                    </v:fill>
+                                  </v:roundrect>
+                                <![endif]-->
+                                <a href="https://example.com/2" target="_blank" style="mso-hide: all">
+                                  ><img
+                                    src="https://picsum.photos/id/237/400/300"
+                                    width="100%"
+                                    alt="placeholder"
+                                    title="placeholder"
+                                    style="border: 0; max-width: 260px; display: block; border-radius: 2px"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                            <!-- ROW 2 -->
+                            <tr>
+                              <!-- Y axis padding -->
+                              <td style="padding-bottom: 10px">
+                                <h4
+                                  style="font-size: 16px; margin: 0; padding: 0; line-height: 2; letter-spacing: -1px"
+                                >
+                                  Headline
+                                </h4>
+                              </td>
+                            </tr>
+                            <!-- ROW 3 -->
+                            <tr>
+                              <!-- Y axis padding -->
+                              <td style="padding-bottom: 20px">
+                                <p style="font-size: 16px; margin: 0; padding: 0; line-height: 1.6" class="story">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, neque provident!
+                                  Excepturi placeat ad consectetur, eos repellat accusamus dolores ex?
+                                </p>
+                              </td>
+                            </tr>
+                            <!-- ROW 4 -->
+                            <tr>
+                              <td style="padding-bottom: 10px">
+                                <table width="100%" style="border-spacing: 0" role="presentation">
+                                  <tr>
+                                    <!-- BUTTON -->
+                                    <td class="button" style="text-align: left">
+                                      <!--[if mso]>
+                                        <v:roundrect
+                                          xmlns_v="urn:schemas-microsoft-com:vml"
+                                          xmlns_w="urn:schemas-microsoft-com:office:word"
+                                          href="https://example.com/1"
+                                          style="height: 25pt; width: 76pt; v-text-anchor: middle"
+                                          arcsize="1%"
+                                          strokecolor="#000000"
+                                          fillcolor="#000000"
+                                        >
+                                          <w:anchorlock />
+                                          <center
+                                            style="
+                                              color: #ffffff;
+                                              font-family: Arial, Helvetica, sans-serif;
+                                              font-size: 16px;
+                                              font-weight: 700;
+                                              line-height: 1;
+                                              letter-spacing: 0.5px;
+                                            "
+                                          >
+                                            BUTTON
+                                          </center>
+                                        </v:roundrect>
+                                      <![endif]-->
+                                      <a
+                                        href="https://example.com/1"
+                                        target="_blank"
+                                        style="
+                                          display: inline-block;
+                                          padding: 8px 24px;
+                                          font-size: 16px;
+                                          line-height: 1;
+                                          font-weight: 700;
+                                          letter-spacing: 0.5px;
+                                          background-color: #000000;
+                                          background: linear-gradient(#000000, #000000);
+                                          color: #ffffff;
+                                          border: 1px solid #000000;
+                                          text-decoration: none;
+                                          border-radius: 2px;
+                                          mso-hide: all;
+                                        "
+                                        >Button</a
+                                      >
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--[if mso]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![end if]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!--[if mso]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+      </div>
+    </div>
+  </body>
+</html>
