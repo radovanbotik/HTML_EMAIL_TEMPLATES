@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>HTML Email Template Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--[if mso]>
+      <noscript>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+      </noscript>
+    <![endif]-->
+    <style type="text/css">
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 0;
+      }
+      p {
+        font-size: 16px;
+      }
+      img {
+        border: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #e8fbfa;
+        font-size: 16px;
+      }
+      /* ZIMBRA BLUE LINKS */
+      span.Object {
+        color: inherit !important;
+      }
+      span.Object-hover {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+
+      /* MIX BLEND MODE FOR DARKMODE IN GMAIL */
+      u + .body .gmail-blend-screen {
+        background: #000;
+        mix-blend-mode: screen;
+      }
+      u + .body .gmail-blend-difference {
+        background: #000;
+        mix-blend-mode: difference;
+      }
+
+      /* SPACING FOR OUTLOOK */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      /* APPLE, IOS BLUE LINK  */
+
+      a[x-apple-data-detectors="true"] {
+        color: inherit !important;
+        text-decoration: inherit !important;
+      }
+
+      @media screen and (max-width: 599.98px) {
+        .table_wrap {
+          width: 100% !important;
+        }
+        .image {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .column-one-third {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .column-one-third img {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .column-padding-x {
+          padding: 0 !important;
+        }
+      }
+      @media screen and (max-width: 499.98px) {
+      }
+      @media screen and (max-width: 399.98px) {
+      }
+
+      /* DARK MODE */
+
+      :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        body,
+        table,
+        .darkmode-bg {
+          background: #2d2d2d !important;
+          color: #ffffff !important;
+        }
+        [data-ogsc] body,
+        table,
+        .darkmode-bg {
+          background: #2d2d2d !important;
+          color: #ffffff !important;
+        }
+        .darkmode-transparent {
+          background-color: transparent !important;
+        }
+        [data-ogsc] .darkmode-transparent {
+          background-color: transparent !important;
+        }
+      }
+
+      /* GOOGLE FONTS */
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+    </style>
+
+    <!--[if mso]>
+      <style type="text/css">
+        body {
+          background-color: #dde0e1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: "Lato", Arial, Helvetica, sans-serif !important;
+        }
+        table {
+          border-spacing: 0 !important;
+          border-collapse: collapse !important;
+        }
+      </style>
+    <![endif]-->
+  </head>
+  <body class="body" xml:lang="en" style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1">
+    <div
+      style="
+        width: 100%;
+        table-layout: fixed;
+        background-color: #dde0e1;
+        color: #3d3d3d;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin: 0 auto 40px;
+      "
+    >
+      <div
+        style="
+          max-width: 600px;
+          background-color: #fafdfe;
+          color: #3d3d3d;
+          font-family: 'Lato', Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          margin: 0 auto;
+        "
+      >
+        <!-- Preheader (remove comment) -->
+        <div
+          style="
+            color: #fafdfe;
+            mso-line-height-rule: exactly;
+            font-size: 1px;
+            line-height: 1px;
+            display: none !important;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          This is our preheader text which can be 35-190 characters but 85-100 is recommended.
+        </div>
+        <div
+          style="
+            color: #fafdfe;
+            mso-line-height-rule: exactly;
+            font-size: 1px;
+            line-height: 1px;
+            display: none !important;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;
+        </div>
+        <!-- End Preheader (remove comment) -->
+
+        <!--[if mso]>
+            <table width="600" align="center" style="border-spacing: 0; border-collapse:collapse; color: #3d3d3d;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+        <table
+          width="600"
+          align="center"
+          border="0"
+          cellspacing="0"
+          cellpadding="0"
+          style="width: 600px; max-width: 600px; background-color: #fafdfe"
+          role="presentation"
+          class="table_wrap"
+        >
+          <!-- TOP NAVBAR -->
+          <tr>
+            <!-- CONTAINER 1 DEFINE BG COLOUR -->
+            <td align="center" valign="top" bgcolor="#dae6ed">
+              <table
+                width="600"
+                align="center"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                style="width: 600px; max-width: 600px"
+                class="table_wrap"
+                role="presentation"
+              >
+                <tr>
+                  <!-- CONTAINER 2 SPACING -->
+                  <td align="center" valign="top">
+                    <table
+                      width="600"
+                      align="center"
+                      border="0"
+                      cellspacing="0"
+                      cellpadding="0"
+                      style="width: 600px; max-width: 600px"
+                      class="table_wrap"
+                      role="presentation"
+                    >
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <!-- CONTENT -->
+                      <tr>
+                        <td
+                          align="center"
+                          valign="center"
+                          style="font-family: Arial, sans-serif; font-size: 12px; line-height: 15px; color: #777777"
+                        >
+                          Preheader Text Here lorem ipsum is dummy text &nbsp;|&nbsp;
+                          <a href="#" target="_blank" style="text-decoration: none; color: #000000; white-space: nowrap"
+                            >View Online</a
+                          >
+                        </td>
+                      </tr>
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- LOGO -->
+          <tr>
+            <!-- CONTAINER 1 - DEFINE BG COLOUR -->
+            <td valign="top" align="center" bgcolor="#369ce6">
+              <table
+                width="600"
+                align="center"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                style="width: 600px; max-width: 600px"
+                class="table_wrap"
+              >
+                <!-- SPACER-->
+                <tr>
+                  <td
+                    height="20"
+                    style="height: 20px; font-size: 0; line-height: 20px; mso-line-height-rule: exactly"
+                    class="h20"
+                  >
+                    &nbsp;
+                  </td>
+                </tr>
+                <!-- CONTENT-->
+                <tr>
+                  <td height="30" style="height: 30px; line-height: 30px; mso-line-height-rule: exactly" align="center">
+                    <a href="https://example.com/1" target="_blank" style="text-decoration: none">
+                      <img
+                        src="https://placehold.co/400x60"
+                        alt="LOGO"
+                        width="200"
+                        height="30"
+                        border="0"
+                        style="width: 200px; height: 30px; display: block; border: 0"
+                      />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- HEADING -->
+          <tr>
+            <!-- CONTAINER 1 - DEFINE BG COLOUR -->
+            <td align="center" valign="top" bgcolor="#369ce6">
+              <table
+                width="600"
+                align="center"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                style="width: 600px; max-width: 600px"
+                role="presentation"
+                class="table_wrap"
+              >
+                <tr>
+                  <!-- CONTAINER 2 - CREATE SPACING  -->
+                  <td align="center" valign="top">
+                    <table
+                      width="600"
+                      align="center"
+                      border="0"
+                      cellspacing="0"
+                      cellpadding="0"
+                      style="width: 600px; max-width: 600px"
+                      role="presentation"
+                      class="table_wrap"
+                    >
+                      <tr>
+                        <!-- COL L -->
+                        <td width="20" style="width: 20px" class="w20">&nbsp;</td>
+                        <!-- CONTENT -->
+                        <td align="center" valign="top">
+                          <table width="100%" align="center" border="0">
+                            <!-- SPACER-->
+                            <tr>
+                              <td
+                                height="20px"
+                                style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                                class="h20"
+                              >
+                                &nbsp;
+                              </td>
+                            </tr>
+                            <!-- CONTENT ROW -->
+                            <tr>
+                              <td valign="top" align="center">
+                                <img
+                                  src="https://placehold.co/1200x800"
+                                  alt="placeholder image"
+                                  style="display: block; max-width: 560px"
+                                  width="560"
+                                  height="400"
+                                  border="0"
+                                  class="image"
+                                />
+                              </td>
+                            </tr>
+                            <!-- SPACER-->
+                            <tr>
+                              <td
+                                height="20px"
+                                style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                                class="h20"
+                              >
+                                &nbsp;
+                              </td>
+                            </tr>
+                            <!-- CONTENT ROW -->
+                            <tr>
+                              <td
+                                align="center"
+                                style="
+                                  font-family: Arial, sans-serif;
+                                  font-size: 44px;
+                                  line-height: 48px;
+                                  color: #ffffff;
+                                  font-weight: bold;
+                                "
+                              >
+                                Thank you for Signing up!
+                              </td>
+                            </tr>
+                            <!-- SPACER-->
+                            <tr>
+                              <td
+                                height="20px"
+                                style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                                class="h20"
+                              >
+                                &nbsp;
+                              </td>
+                            </tr>
+                            <!-- CONTENT ROW -->
+                            <tr>
+                              <td
+                                align="center"
+                                style="
+                                  font-family: Arial, sans-serif;
+                                  font-size: 15px;
+                                  line-height: 18px;
+                                  color: #ffffff;
+                                "
+                              >
+                                Aenean porttitor molestie dolo at malesuada tortor dignissim eu interdum
+                                <br class="em_hide" />
+                                arcu massa maximus felis eget condimentum ligula enim quis diam
+                              </td>
+                            </tr>
+                            <!-- SPACER-->
+                            <tr>
+                              <td
+                                height="40px"
+                                style="height: 40px; line-height: 40px; mso-line-height-rule: exactly; font-size: 0px"
+                                class="h20"
+                              >
+                                &nbsp;
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- COL R -->
+                        <td width="20px" style="width: 20px" class="w20">&nbsp;</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- BODY -->
+          <tr>
+            <!-- CONTAINER 1 SPACING -->
+            <td align="center" valign="top">
+              <table
+                width="600"
+                align="center"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                style="width: 600px"
+                class="table_wrap"
+              >
+                <tr>
+                  <!-- COLUMN LEFT -->
+                  <td width="30" style="width: 30px" class="w30">&nbsp;</td>
+                  <!-- COLUMN MIDDLE -->
+                  <td align="center" valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                      <!-- CONTENT ROW - IMAGE -->
+                      <tr>
+                        <td align="center" valign="top">
+                          <img
+                            src="https://placehold.co/160x30"
+                            alt="placeholder"
+                            width="160"
+                            height="30"
+                            border="0"
+                            style="display: block; width: 160; height: 30"
+                          />
+                        </td>
+                      </tr>
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <!-- CONTENT ROW - HEADING -->
+                      <tr>
+                        <td
+                          align="left"
+                          valign="top"
+                          style="
+                            font-family: Arial, sans-serif;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #000000;
+                            font-weight: bold;
+                          "
+                        >
+                          Hi First Name,
+                        </td>
+                      </tr>
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <!-- CONTENT ROW - TEXT -->
+                      <tr>
+                        <td
+                          align="left"
+                          valign="top"
+                          style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; color: #777777"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipiscing enean porttitor molestie dolor at malesuada
+                          tortor dignissim
+                          <a href="#" target="_blank" style="text-decoration: none; color: #319ae7"
+                            >vitae dolor sapien tincidunt</a
+                          >
+                          consectetur necvitae id ipsum eleifend cursus nisl felissapien fermentum rhoncus.<br />
+                          <br />
+                          Pellentesque
+                          <a href="#" target="_blank" style="text-decoration: none; color: #319ae7"
+                            >tempus tempus metus vel porttitor</a
+                          >. Donec venenatis varius felis lacinia maecenas eu commodo massa. Pellentesque a imperdiet
+                          ante.<br />
+                          <br />
+                          <span style="font-weight: bold; font-style: italic"
+                            >Fusce et dolor tempus dapibus nisl ac vestibulum quam ac aliquam lorem.</span
+                          >
+                        </td>
+                      </tr>
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <!-- CONTENT ROW - BUTTON -->
+                      <tr>
+                        <!-- CONTAINER 1 POSITION + DIMENSIONS -->
+                        <td align="left" valign="top">
+                          <table
+                            width="150"
+                            border="0"
+                            align="left"
+                            cellpadding="0"
+                            cellspacing="0"
+                            style="width: 150px"
+                          >
+                            <tr>
+                              <!-- CONTAINER 2 BG COLOR -->
+                              <td align="center" valign="top" bgcolor="#369ce6">
+                                <table
+                                  width="150"
+                                  border="0"
+                                  align="center"
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  style="width: 150px"
+                                >
+                                  <tr>
+                                    <!-- CONTAINER 3 HEIGHT- CONTENT -->
+                                    <td
+                                      align="center"
+                                      valign="middle"
+                                      height="40"
+                                      style="
+                                        font-family: Arial, sans-serif;
+                                        font-size: 18px;
+                                        color: #ffffff;
+                                        font-weight: bold;
+                                      "
+                                    >
+                                      <a
+                                        href="https://example.com/100"
+                                        target="_blank"
+                                        style="text-decoration: none; color: #ffffff; display: block"
+                                        >Button</a
+                                      >
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <!-- WE CAN INCLUDE ROW WITH IMAGE OF BORDER -->
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <!-- CONTENT ROW - HEADING -->
+                      <tr>
+                        <td
+                          align="center"
+                          valign="top"
+                          style="
+                            font-family: Arial, sans-serif;
+                            font-size: 34px;
+                            line-height: 38px;
+                            color: #000000;
+                            font-weight: bold;
+                          "
+                        >
+                          Latest Products
+                        </td>
+                      </tr>
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <!-- 3 COLUMN LAYOUT ROW -->
+                      <tr>
+                        <!-- CONTAINER 1 DIMENSIONS -->
+                        <td align="center" valign="top">
+                          <table
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            align="center"
+                            style="width: 100%; max-width: 540px"
+                            class="table_wrap"
+                            role="presentation"
+                          >
+                            <tr>
+                              <!-- CONTAINER 2 LAYOUT -->
+                              <td align="center" valign="top" style="font-size: 0" class="two_column_layout">
+                                <!-- GHOST TABLE FOR MSO -->
+
+                                <!--[if mso]>
+                                  <table width="100%" style='border-spacing:0;' role='presentation'>
+                                  <tr>
+                                  <td width='180' align='center'>
+                                 <![endif]-->
+
+                                <!-- COL 1 -->
+                                <table
+                                  width="100%"
+                                  cellspacing="0"
+                                  cellpadding="0"
+                                  border="0"
+                                  align="center"
+                                  style="
+                                    width: 100%;
+                                    max-width: 180px;
+                                    display: inline-block;
+                                    border-spacing: 0;
+                                    font-size: 0;
+                                    text-align: center;
+                                  "
+                                  class="column column-one-third"
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <!-- PADDING FOR COLUMN -->
+                                    <td align="center" style="padding: 0 5px" class="column-padding-x">
+                                      <table
+                                        width="100%"
+                                        cellspacing="0"
+                                        cellpadding="0"
+                                        border="0"
+                                        align="center"
+                                        style="width: 100%"
+                                        role="presentation"
+                                      >
+                                        <!-- CONTENT ROW IMAGE -->
+                                        <tr>
+                                          <td align="center" style="text-align: center">
+                                            <a
+                                              href="https://example.com/200"
+                                              target="_blank"
+                                              style="text-decoration: none; text-align: center; font-size: 0"
+                                            >
+                                              <img
+                                                src="https://placehold.co/600x600"
+                                                alt="this is a product"
+                                                width="150"
+                                                style="border: 0; width: 150px; max-width: 150px"
+                                                border="0"
+                                              />
+                                            </a>
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW TITLE-->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 20px;
+                                              line-height: 24px;
+                                              color: #000000;
+                                              font-weight: bold;
+                                            "
+                                          >
+                                            Product Name
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW DESCRIPTION -->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 15px;
+                                              line-height: 20px;
+                                              color: #777777;
+                                            "
+                                          >
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW BUTTON -->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              color: #319ae7;
+                                              font-weight: bold;
+                                            "
+                                          >
+                                            <a
+                                              href="https://example.com/300"
+                                              target="_blank"
+                                              style="text-decoration: none; color: #319ae7"
+                                              >Button</a
+                                            >
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!--[if mso]>
+                                  </td>
+                                  <td width='180' align='center'>
+                                <![endif]-->
+
+                                <!-- COL 2 -->
+                                <table
+                                  width="100%"
+                                  cellspacing="0"
+                                  cellpadding="0"
+                                  border="0"
+                                  align="center"
+                                  style="
+                                    width: 100%;
+                                    max-width: 180px;
+                                    display: inline-block;
+                                    border-spacing: 0;
+                                    font-size: 0;
+                                    text-align: center;
+                                  "
+                                  class="column column-one-third"
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <!-- PADDING FOR COLUMN -->
+                                    <td align="center" style="padding: 0 5px" class="column-padding-x">
+                                      <table
+                                        width="100%"
+                                        cellspacing="0"
+                                        cellpadding="0"
+                                        border="0"
+                                        align="center"
+                                        style="width: 100%"
+                                        role="presentation"
+                                      >
+                                        <!-- CONTENT ROW IMAGE -->
+                                        <tr>
+                                          <td align="center" style="text-align: center">
+                                            <a
+                                              href="https://example.com/200"
+                                              target="_blank"
+                                              style="text-decoration: none; text-align: center; font-size: 0"
+                                            >
+                                              <img
+                                                src="https://placehold.co/600x600"
+                                                alt="this is a product"
+                                                width="150"
+                                                style="border: 0; width: 150px; max-width: 150px"
+                                                border="0"
+                                              />
+                                            </a>
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW TITLE-->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 20px;
+                                              line-height: 24px;
+                                              color: #000000;
+                                              font-weight: bold;
+                                            "
+                                          >
+                                            Product Name
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW DESCRIPTION -->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 15px;
+                                              line-height: 20px;
+                                              color: #777777;
+                                            "
+                                          >
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW BUTTON -->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              color: #319ae7;
+                                              font-weight: bold;
+                                            "
+                                          >
+                                            <a
+                                              href="https://example.com/300"
+                                              target="_blank"
+                                              style="text-decoration: none; color: #319ae7"
+                                              >Button</a
+                                            >
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!--[if mso]>
+                                  </td>
+                                  <td width='180' align='center'>
+                                <![endif]-->
+
+                                <!-- COL 3 -->
+                                <table
+                                  width="100%"
+                                  cellspacing="0"
+                                  cellpadding="0"
+                                  border="0"
+                                  align="center"
+                                  style="
+                                    width: 100%;
+                                    max-width: 180px;
+                                    display: inline-block;
+                                    border-spacing: 0;
+                                    font-size: 0;
+                                    text-align: center;
+                                  "
+                                  class="column column-one-third"
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <!-- PADDING FOR COLUMN -->
+                                    <td align="center" style="padding: 0 5px" class="column-padding-x">
+                                      <table
+                                        width="100%"
+                                        cellspacing="0"
+                                        cellpadding="0"
+                                        border="0"
+                                        align="center"
+                                        style="width: 100%"
+                                        role="presentation"
+                                      >
+                                        <!-- CONTENT ROW IMAGE -->
+                                        <tr>
+                                          <td align="center" style="text-align: center">
+                                            <a
+                                              href="https://example.com/200"
+                                              target="_blank"
+                                              style="text-decoration: none; text-align: center; font-size: 0"
+                                            >
+                                              <img
+                                                src="https://placehold.co/600x600"
+                                                alt="this is a product"
+                                                width="150"
+                                                style="border: 0; width: 150px; max-width: 150px"
+                                                border="0"
+                                              />
+                                            </a>
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW TITLE-->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 20px;
+                                              line-height: 24px;
+                                              color: #000000;
+                                              font-weight: bold;
+                                            "
+                                          >
+                                            Product Name
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW DESCRIPTION -->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 15px;
+                                              line-height: 20px;
+                                              color: #777777;
+                                            "
+                                          >
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- CONTENT ROW BUTTON -->
+                                        <tr>
+                                          <td
+                                            align="center"
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              color: #319ae7;
+                                              font-weight: bold;
+                                            "
+                                          >
+                                            <a
+                                              href="https://example.com/300"
+                                              target="_blank"
+                                              style="text-decoration: none; color: #319ae7"
+                                              >Button</a
+                                            >
+                                          </td>
+                                        </tr>
+                                        <!-- SPACER -->
+                                        <tr>
+                                          <td
+                                            height="10"
+                                            style="height: 10px; mso-line-height-rule: exactly; line-height: 10px"
+                                            class="h10"
+                                          >
+                                            &nbsp;
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!--[if mso]>
+                                  </td>
+                                  </tr>
+                                  </table>
+                                <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 20px; line-height: 20px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <!-- CONTENT ROW - BUTTON -->
+                      <tr>
+                        <!-- CONTAINER 1 POSITION + DIMENSIONS -->
+                        <td align="center" valign="top">
+                          <table
+                            width="150"
+                            border="0"
+                            align="center"
+                            cellpadding="0"
+                            cellspacing="0"
+                            style="width: 150px"
+                          >
+                            <tr>
+                              <!-- CONTAINER 2 BG COLOR -->
+                              <td align="center" valign="top" bgcolor="#369ce6">
+                                <table
+                                  width="150"
+                                  border="0"
+                                  align="center"
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  style="width: 150px"
+                                >
+                                  <tr>
+                                    <!-- CONTAINER 3 HEIGHT- CONTENT -->
+                                    <td
+                                      align="center"
+                                      valign="middle"
+                                      height="40"
+                                      style="
+                                        font-family: Arial, sans-serif;
+                                        font-size: 18px;
+                                        color: #ffffff;
+                                        font-weight: bold;
+                                      "
+                                    >
+                                      <a
+                                        href="https://example.com/100"
+                                        target="_blank"
+                                        style="text-decoration: none; color: #ffffff; display: block"
+                                        >Button</a
+                                      >
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- SPACER -->
+                      <tr>
+                        <td
+                          height="20"
+                          style="height: 40px; line-height: 40px; mso-line-height-rule: exactly; font-size: 0px"
+                          class="h20"
+                        >
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- COLUMN RIGHT -->
+                  <td width="30" style="width: 30px" class="w30">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- FOOTER -->
+          <tr></tr>
+        </table>
+        <!--[if mso]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+      </div>
+    </div>
+  </body>
+</html>
